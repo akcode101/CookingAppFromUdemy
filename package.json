@@ -4,8 +4,8 @@
   "description": "forkify project",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --node development",
-    "build": "webpack --node production",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
     "start": "webpack-dev-server --mode development --open"
   },
   "author": "Anshul Kale",
